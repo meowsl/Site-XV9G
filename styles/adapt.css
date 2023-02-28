@@ -1,0 +1,1012 @@
+@media screen and (max-width:770px){
+    body{
+        width:100%;
+        text-align:center;
+        font-size:22px;
+        color:#fff;
+        align-items:center;
+        background-image:url(../img/black-woolen.png);
+        background-repeat: repeat;
+        font-family: 'Changa', sans-serif;
+        overflow-x: hidden;
+    }
+    .menu__link {
+        display: inline-block;
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, rgba(186,171,143,1) 0%, rgba(112,100,76,1) 100%);
+        font-weight: 300;
+        font-size: 24px;
+        margin: 0; /* Обнуляем значение отступов */
+        text-decoration: none;
+        margin: auto 16px;
+        flex-wrap: wrap;
+        margin-top:15px;
+    }
+    .menu__link:after{
+        display: block; 
+        content: "";
+        height: 3px;
+        width: 0%; 
+        background-color:#baab8f; 
+        transition: width 0.4s ease-in-out; 
+    }
+    .menu__link:hover::after, .menu__link:focus::after{
+        width:100%;
+    }
+    .head_menu{
+        width: 100%;
+        height: 75px;
+        box-sizing: border-box;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align:center;
+        margin:0 auto;
+        padding: 0 80px;
+        background: rgba(0,0,0, 0.3);
+    }
+    .qsl_page{
+        height:auto;
+        width:85%;
+        display:flex;
+        flex-direction:column;
+        border:1px groove;
+        border-radius:100px;
+        margin:60px auto;
+        background-color: rgba(0,0,0, 0.4);
+        padding:0 20px 10px 20px;
+        box-shadow:0 0 50px 10px rgba(107, 107, 107, 0.7);
+    }
+    .log_page{
+        height:auto;
+        width:85%;
+        display:flex;
+        flex-direction:column;
+        border:1px groove;
+        border-radius:100px;
+        margin:60px auto;
+        background-color: rgba(0,0,0, 0.4);
+        padding:0 20px 10px 20px;
+        box-shadow:0 0 50px 10px rgba(107, 107, 107, 0.7);
+    }
+    .bio_page{
+        height:auto;
+        width:85%;
+        display:flex;
+        flex-direction:column;
+        border:1px groove;
+        border-radius:100px;
+        margin:60px auto;
+        background-color: rgba(0,0,0, 0.4);
+        padding:0 20px 10px 20px;
+        box-shadow:0 0 50px 10px rgba(107, 107, 107, 0.7);
+    }
+    .logo{
+        width:30px;
+        border-radius:50%;
+        height:30px;
+        display:flex;
+        text-align:center;
+        align-items:center;
+        justify-content:center;
+        background:#f7f7f7;
+        text-align:center;
+        position:fixed;
+        bottom:25px;
+        right:5px;
+        color:#333;
+        opacity:0.7;
+        font-size:12px;
+        right:10px;
+    }
+    .footer{
+        flex:0 0 auto;
+        height:80px;
+        max-width:100%;
+        position:relative;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        background: rgba(0,0,0, 0.3);
+    }
+    .footer_text{
+        margin:auto 40px;
+        font-size:18px;
+    }
+    #priv{
+        background-color:rgba(0, 0, 0, 0);
+        color:#fff;
+        width:100px;
+        border:none;
+        font-family: 'Changa', sans-serif;
+        color:rgb(184, 178, 149);
+    }
+    .www_page{
+        height:auto;
+        width:85%;
+        display:flex;
+        flex-direction:column;
+        border:1px groove;
+        border-radius:100px;
+        margin:60px auto;
+        background-color: rgba(0,0,0, 0.4);
+        padding:0 20px 10px 20px;
+        box-shadow:0 0 50px 10px rgba(107, 107, 107, 0.7);
+    }
+    .cont_page{
+        height:auto;
+        width:85%;
+        display:flex;
+        flex-direction:column;
+        border:1px groove;
+        border-radius:100px;
+        margin:60px auto;
+        background-color: rgba(0,0,0, 0.4);
+        padding:0 20px 10px 20px;
+        box-shadow:0 0 50px 10px rgba(107, 107, 107, 0.7);
+    }
+    .etc_page{
+        height:auto;
+        width:85%;
+        display:flex;
+        flex-direction:column;
+        border:1px groove;
+        border-radius:100px;
+        margin:60px auto;
+        background-color: rgba(0,0,0, 0.4);
+        padding:0 20px 10px 20px;
+        box-shadow:0 0 50px 10px rgba(107, 107, 107, 0.7);
+    }
+    .shack_page{
+        height:auto;
+        width:85%;
+        display:flex;
+        flex-direction:column;
+        border:1px groove;
+        border-radius:100px;
+        margin:60px auto;
+        background-color: rgba(0,0,0, 0.4);
+        padding:0 20px 10px 20px;
+        box-shadow:0 0 50px 10px rgba(107, 107, 107, 0.7);
+    }
+}
+
+@media screen and (max-width:700px){
+    body{
+        width:100%;
+        text-align:center;
+        font-size:22px;
+        color:#fff;
+        align-items:center;
+        background-image:url(../img/black-woolen.png);
+        background-repeat: repeat;
+        font-family: 'Changa', sans-serif;
+        overflow-x: hidden;
+    }
+    .menu__link {
+        display: inline-block;
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, rgba(186,171,143,1) 0%, rgba(112,100,76,1) 100%);
+        font-weight: 300;
+        font-size: 24px;
+        margin: 0; /* Обнуляем значение отступов */
+        text-decoration: none;
+        margin: auto 18px;
+        margin-top:10px;
+        flex-wrap: wrap;
+    }
+    .menu__link:after{
+        display: block; 
+        content: "";
+        height: 3px;
+        width: 0%; 
+        background-color:#baab8f; 
+        transition: width 0.4s ease-in-out; 
+    }
+    .menu__link:hover::after, .menu__link:focus::after{
+        width:100%;
+    }
+    .head_menu{
+        width: 100%;
+        height: 80px;
+        box-sizing: border-box;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align:center;
+        margin:0 auto;
+        padding: 0 80px;
+        background: rgba(0,0,0, 0.3);
+    }
+    .href_more{
+        border-radius:20px;
+        margin:auto;
+        text-align:center;
+        display:flex;
+        flex-direction:column;  
+        background-color:rgba(120, 24, 2, 0.4);
+        text-decoration:none;
+        width:100%;
+        padding:10px;
+        font-size:18px;
+    
+    }
+    .h_pages{
+        color:rgb(186, 197, 204);
+        font-size:48px;
+        width:200px;
+        margin:auto;
+        margin-top:20px;
+        text-align:center;
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, rgba(175,175,175,1) 23%, rgba(255,255,255,1) 100%); 
+    }
+    .footer{
+        flex:0 0 auto;
+        height:80px;
+        max-width:100%;
+        position:relative;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        background: rgba(0,0,0, 0.3);
+    }
+    .footer_text{
+        margin:auto 40px;
+        font-size:18px;
+    }
+    #priv{
+        background-color:rgba(0, 0, 0, 0);
+        color:#fff;
+        width:100px;
+        border:none;
+        font-family: 'Changa', sans-serif;
+        color:rgb(184, 178, 149);
+    }
+    .logo{
+        width:30px;
+        border-radius:50%;
+        height:30px;
+        display:flex;
+        text-align:center;
+        align-items:center;
+        justify-content:center;
+        background:#f7f7f7;
+        text-align:center;
+        position:fixed;
+        bottom:25px;
+        right:10px;
+        color:#333;
+        opacity:0.7;
+        font-size:12px;
+        right:8px;
+    }
+}
+
+@media screen and (max-width:660px){
+    body{
+        width:100%;
+        text-align:center;
+        font-size:18px;
+        color:#fff;
+        align-items:center;
+        background-image:url(../img/black-woolen.png);
+        background-repeat: repeat;
+        font-family: 'Changa', sans-serif;
+        overflow-x: hidden;
+    }
+    .head_menu{
+        width: 100%;
+        height: 70px;
+        box-sizing: border-box;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align:center;
+        margin:0 auto;
+        padding: 0 80px;
+        background: rgba(0,0,0, 0.3);
+        overflow-x: hidden;
+    }
+    .menu__link {
+        display: inline-block;
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, rgba(186,171,143,1) 0%, rgba(112,100,76,1) 100%);
+        font-weight: 300;
+        font-size: 22px;
+        margin: 0; /* Обнуляем значение отступов */
+        text-decoration: none;
+        margin: auto 16px;
+        flex-wrap: wrap;
+        margin-top:10px;
+    }
+    .menu__link:after{
+        display: block; 
+        content: "";
+        height: 3px;
+        width: 0%; 
+        background-color:#baab8f; 
+        transition: width 0.4s ease-in-out; 
+    }
+    .menu__link:hover::after, .menu__link:focus::after{
+        width:100%;
+    }
+    .href_more{
+        border-radius:20px;
+        margin:auto;
+        text-align:center;
+        display:flex;
+        flex-direction:column;  
+        background-color:rgba(120, 24, 2, 0.4);
+        text-decoration:none;
+        width:100%;
+        padding:10px;
+        font-size:14px;
+    }
+    .h_pages{
+        color:rgb(186, 197, 204);
+        font-size:46px;
+        width:200px;
+        margin:auto;
+        margin-top:20px;
+        text-align:center;
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, rgba(175,175,175,1) 23%, rgba(255,255,255,1) 100%); 
+    }
+    .footer{
+        flex:0 0 auto;
+        height:70px;
+        max-width:100%;
+        position:relative;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        background: rgba(0,0,0, 0.3);
+    }
+    .footer_text{
+        margin:auto 35px;
+        font-size:16px;
+    }
+    #priv{
+        background-color:rgba(0, 0, 0, 0);
+        color:#fff;
+        width:100px;
+        border:none;
+        font-family: 'Changa', sans-serif;
+        color:rgb(184, 178, 149);
+    }
+    .logo{
+        width:25px;
+        border-radius:50%;
+        height:25px;
+        display:flex;
+        text-align:center;
+        align-items:center;
+        justify-content:center;
+        background:#f7f7f7;
+        text-align:center;
+        position:fixed;
+        bottom:27px;
+        right:10px;
+        color:#333;
+        opacity:0.7;
+        font-size:12px;
+        right:8px;
+    }
+}
+
+
+@media screen and (max-width:580px){
+    body{
+        width:100%;
+        text-align:center;
+        font-size:16px;
+        color:#fff;
+        align-items:center;
+        background-image:url(../img/black-woolen.png);
+        background-repeat: repeat;
+        font-family: 'Changa', sans-serif;
+        overflow-x: hidden;
+    }
+    .head_menu{
+        width: 100%;
+        height: 60px;
+        box-sizing: border-box;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align:center;
+        margin:0 auto;
+        padding: 0 80px;
+        background: rgba(0,0,0, 0.3);
+    }
+    .menu__link {
+        display: inline-block;
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, rgba(186,171,143,1) 0%, rgba(112,100,76,1) 100%);
+        font-weight: 300;
+        font-size: 20px;
+        margin: 0; /* Обнуляем значение отступов */
+        text-decoration: none;
+        margin: auto 14px;
+        flex-wrap: wrap;
+    }
+    .menu__link:after{
+        display: block; 
+        content: "";
+        height: 3px;
+        width: 0%; 
+        background-color:#baab8f; 
+        transition: width 0.4s ease-in-out; 
+    }
+    .menu__link:hover::after, .menu__link:focus::after{
+        width:100%;
+    }
+    .href_more{
+        border-radius:20px;
+        margin:auto;
+        text-align:center;
+        display:flex;
+        flex-direction:column;  
+        background-color:rgba(120, 24, 2, 0.4);
+        text-decoration:none;
+        width:100%;
+        padding:10px;
+        font-size:12px;
+    }
+    .h_pages{
+        color:rgb(186, 197, 204);
+        font-size:44px;
+        width:200px;
+        margin:auto;
+        margin-top:20px;
+        text-align:center;
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, rgba(175,175,175,1) 23%, rgba(255,255,255,1) 100%); 
+    }
+    .footer{
+        flex:0 0 auto;
+        height:60px;
+        max-width:100%;
+        position:relative;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        background: rgba(0,0,0, 0.3);
+    }
+    .footer_text{
+        margin:auto 30px;
+        font-size:14px;
+    }
+    #priv{
+        background-color:rgba(0, 0, 0, 0);
+        color:#fff;
+        width:100px;
+        border:none;
+        font-family: 'Changa', sans-serif;
+        color:rgb(184, 178, 149);
+    }
+    .logo{
+        width:20px;
+        border-radius:50%;
+        height:20px;
+        display:flex;
+        text-align:center;
+        align-items:center;
+        justify-content:center;
+        background:#f7f7f7;
+        text-align:center;
+        position:fixed;
+        bottom:30px;
+        right:10px;
+        color:#333;
+        opacity:0.7;
+        font-size:12px;
+        right:8px;
+    }
+}
+
+@media screen and (max-width:508px){
+    body{
+        width:100%;
+        text-align:center;
+        font-size:14px;
+        color:#fff;
+        align-items:center;
+        background-image:url(../img/black-woolen.png);
+        background-repeat: repeat;
+        font-family: 'Changa', sans-serif;
+        overflow-x: hidden;
+    }
+    .head_menu{
+        width: 100%;
+        height: 60px;
+        box-sizing: border-box;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align:center;
+        margin:0 auto;
+        padding: 0 80px;
+        background: rgba(0,0,0, 0.3);
+    }
+    .menu__link {
+        display: inline-block;
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, rgba(186,171,143,1) 0%, rgba(112,100,76,1) 100%);
+        font-weight: 300;
+        font-size: 20px;
+        margin: 0; /* Обнуляем значение отступов */
+        text-decoration: none;
+        margin: auto 10px;
+        flex-wrap: wrap;
+        margin-top:10px;
+    }
+    .menu__link:after{
+        display: block; 
+        content: "";
+        height: 3px;
+        width: 0%; 
+        background-color:#baab8f; 
+        transition: width 0.4s ease-in-out; 
+    }
+    .menu__link:hover::after, .menu__link:focus::after{
+        width:100%;
+    }
+    .href_more{
+        font-size:12px;
+        border-radius:20px;
+        margin:auto;
+        text-align:center;
+        display:flex;
+        flex-direction:column;  
+        background-color:rgba(120, 24, 2, 0.4);
+        text-decoration:none;
+        width:100%;
+        padding:10px;
+    }
+    .h_pages{
+        color:rgb(186, 197, 204);
+        font-size:42px;
+        width:200px;
+        margin:auto;
+        margin-top:20px;
+        text-align:center;
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, rgba(175,175,175,1) 23%, rgba(255,255,255,1) 100%); 
+    }
+    .footer{
+        flex:0 0 auto;
+        height:50px;
+        max-width:100%;
+        position:relative;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        background: rgba(0,0,0, 0.3);
+    }
+    .footer_text{
+        margin:auto 30px;
+        font-size:14px;
+    }
+    #priv{
+        background-color:rgba(0, 0, 0, 0);
+        color:#fff;
+        width:100px;
+        border:none;
+        font-family: 'Changa', sans-serif;
+        color:rgb(184, 178, 149);
+    }
+    .frame25{
+        text-align:center;
+        font-size:12px;
+        opacity:0.33;
+        margin:60px auto 5px auto;
+        max-width:95%;
+        padding:20px;
+    }
+    .logo{
+        width:20px;
+        border-radius:50%;
+        height:20px;
+        display:flex;
+        text-align:center;
+        align-items:center;
+        justify-content:center;
+        background:#f7f7f7;
+        text-align:center;
+        position:fixed;
+        bottom:15px;
+        right:10px;
+        color:#333;
+        opacity:0.7;
+        font-size:12px;
+        right:8px;
+    }
+}
+
+@media screen and (max-width:465px){
+    body{
+        width:100%;
+        text-align:center;
+        font-size:12px;
+        color:#fff;
+        align-items:center;
+        background-image:url(../img/black-woolen.png);
+        background-repeat: repeat;
+        font-family: 'Changa', sans-serif;
+        overflow-x: hidden;
+    }
+    .head_menu{
+        width: 100%;
+        height: 50px;
+        box-sizing: border-box;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align:center;
+        margin:0 auto;
+        padding: 0 80px;
+        background: rgba(0,0,0, 0.3);
+    }
+    .menu__link {
+        display: inline-block;
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, rgba(186,171,143,1) 0%, rgba(112,100,76,1) 100%);
+        font-weight: 300;
+        font-size: 16px;
+        margin: 0; /* Обнуляем значение отступов */
+        text-decoration: none;
+        margin: auto 10px;
+        flex-wrap: wrap;
+        margin-top:10px;
+    }
+    .menu__link:after{
+        display: block; 
+        content: "";
+        height: 3px;
+        width: 0%; 
+        background-color:#baab8f; 
+        transition: width 0.4s ease-in-out; 
+    }
+    .menu__link:hover::after, .menu__link:focus::after{
+        width:100%;
+    }
+    .h_pages{
+        color:rgb(186, 197, 204);
+        font-size:40px;
+        width:200px;
+        margin:auto;
+        margin-top:20px;
+        text-align:center;
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, rgba(175,175,175,1) 23%, rgba(255,255,255,1) 100%); 
+    }
+    .frame25{
+        text-align:center;
+        font-size:10px;
+        opacity:0.33;
+        margin:60px auto 5px auto;
+        max-width:80%;
+        padding:20px;
+    }
+    .footer{
+        flex:0 0 auto;
+        height:50px;
+        max-width:100%;
+        position:relative;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        background: rgba(0,0,0, 0.3);
+    }
+    .footer_text{
+        margin:auto 25px;
+        font-size:14px;
+    }
+    #priv{
+        background-color:rgba(0, 0, 0, 0);
+        color:#fff;
+        width:100px;
+        border:none;
+        font-family: 'Changa', sans-serif;
+        color:rgb(184, 178, 149);
+    }
+}
+
+@media screen and (max-width:428px){
+    body{
+        width:100%;
+        text-align:center;
+        font-size:12px;
+        color:#fff;
+        align-items:center;
+        background-image:url(../img/black-woolen.png);
+        background-repeat: repeat;
+        font-family: 'Changa', sans-serif;
+        overflow-x: hidden;
+    }
+    .head_menu{
+        width: 100%;
+        height: 50px;
+        box-sizing: border-box;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align:center;
+        margin:0 auto;
+        padding: 0 80px;
+        background: rgba(0,0,0, 0.3);
+    }
+    .menu__link {
+        display: inline-block;
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, rgba(186,171,143,1) 0%, rgba(112,100,76,1) 100%);
+        font-weight: 300;
+        font-size: 14px;
+        margin: 0; /* Обнуляем значение отступов */
+        text-decoration: none;
+        margin: auto 8px;
+        flex-wrap: wrap;
+    }
+    .menu__link:after{
+        display: block; 
+        content: "";
+        height: 3px;
+        width: 0%; 
+        background-color:#baab8f; 
+        transition: width 0.4s ease-in-out; 
+    }
+    .menu__link:hover::after, .menu__link:focus::after{
+        width:100%;
+    }
+    .h_pages{
+        color:rgb(186, 197, 204);
+        font-size:38px;
+        width:200px;
+        margin:auto;
+        margin-top:20px;
+        text-align:center;
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, rgba(175,175,175,1) 23%, rgba(255,255,255,1) 100%); 
+    }
+    .footer{
+        flex:0 0 auto;
+        height:40px;
+        max-width:100%;
+        position:relative;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        background: rgba(0,0,0, 0.3);
+    }
+    .footer_text{
+        margin:auto 25px;
+        font-size:12px;
+    }
+    #priv{
+        background-color:rgba(0, 0, 0, 0);
+        color:#fff;
+        width:100px;
+        border:none;
+        font-family: 'Changa', sans-serif;
+        color:rgb(184, 178, 149);
+    }
+    .logo{
+        width:17px;
+        border-radius:50%;
+        height:17px;
+        display:flex;
+        text-align:center;
+        align-items:center;
+        justify-content:center;
+        background:#f7f7f7;
+        text-align:center;
+        position:fixed;
+        bottom:12px;
+        right:10px;
+        color:#333;
+        opacity:0.7;
+        font-size:12px;
+        right:5px;
+    }
+}
+
+@media screen and (max-width:395px){
+    body{
+        width:100%;
+        text-align:center;
+        font-size:12px;
+        color:#fff;
+        align-items:center;
+        background-image:url(../img/black-woolen.png);
+        background-repeat: repeat;
+        font-family: 'Changa', sans-serif;
+        overflow-x: hidden;
+    }
+    .head_menu{
+        width: 100%;
+        height: 40px;
+        box-sizing: border-box;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align:center;
+        margin:0 auto;
+        padding: 0 80px;
+        background: rgba(0,0,0, 0.3);
+    }
+    .menu__link {
+        display: inline-block;
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, rgba(186,171,143,1) 0%, rgba(112,100,76,1) 100%);
+        font-weight: 300;
+        font-size: 14px;
+        margin: 0; /* Обнуляем значение отступов */
+        text-decoration: none;
+        margin: auto 8px;
+        flex-wrap: wrap;
+        margin-top:10px;
+    }
+    .menu__link:after{
+        display: block; 
+        content: "";
+        height: 3px;
+        width: 0%; 
+        background-color:#baab8f; 
+        transition: width 0.4s ease-in-out; 
+    }
+    .menu__link:hover::after, .menu__link:focus::after{
+        width:100%;
+    }
+    .top_page{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        text-align:center;
+        margin:30px auto auto auto;
+        width:70%;
+        padding-bottom:10px;
+        background: rgba(0,0,0, 0.1);
+        box-shadow:0 0 10px 10px rgba(0,0,0, 0.2);
+    }
+    .h_pages{
+        color:rgb(186, 197, 204);
+        font-size:36px;
+        width:200px;
+        margin:auto;
+        margin-top:20px;
+        text-align:center;
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, rgba(175,175,175,1) 23%, rgba(255,255,255,1) 100%); 
+    }
+    .frame25{
+        text-align:center;
+        font-size:8px;
+        opacity:0.33;
+        margin:60px auto 5px auto;
+        max-width:95%;
+        padding:20px;
+    }
+}
+
+@media screen and (max-width:350px){
+    body{
+        width:100%;
+        text-align:center;
+        font-size:10px;
+        color:#fff;
+        align-items:center;
+        background-image:url(../img/black-woolen.png);
+        background-repeat: repeat;
+        font-family: 'Changa', sans-serif;
+        overflow-x: hidden;
+    }
+    .head_menu{
+        width: 100%;
+        height: 40px;
+        box-sizing: border-box;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align:center;
+        margin:0 auto;
+        padding: 0 80px;
+        background: rgba(0,0,0, 0.3);
+    }
+    .menu__link {
+        display: inline-block;
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, rgba(186,171,143,1) 0%, rgba(112,100,76,1) 100%);
+        font-weight: 300;
+        font-size: 12px;
+        margin: 0; /* Обнуляем значение отступов */
+        text-decoration: none;
+        margin: auto 5px;
+        flex-wrap: wrap;
+    }
+    .menu__link:after{
+        display: block; 
+        content: "";
+        height: 3px;
+        width: 0%; 
+        background-color:#baab8f; 
+        transition: width 0.4s ease-in-out; 
+    }
+    .menu__link:hover::after, .menu__link:focus::after{
+        width:100%;
+    }
+    .h_pages{
+        color:rgb(186, 197, 204);
+        font-size:34px;
+        width:200px;
+        margin:auto;
+        margin-top:20px;
+        text-align:center;
+        color: transparent;    
+        -webkit-background-clip: text;
+        background-clip: text;
+        background-image: linear-gradient(90deg, rgba(175,175,175,1) 23%, rgba(255,255,255,1) 100%); 
+    }
+    .frame25{
+        text-align:center;
+        font-size:8px;
+        opacity:0.33;
+        margin:auto;
+        max-width:95%;
+        padding:20px;
+    }
+    .href_more{
+        border-radius:20px;
+        margin:auto;
+        text-align:center;
+        display:flex;
+        flex-direction:column;  
+        background-color:rgba(120, 24, 2, 0.4);
+        text-decoration:none;
+        width:100%;
+        padding:10px;
+        font-size:10px;
+    
+    }
+
+}
